@@ -1,0 +1,33 @@
+.homeheadersection {
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg");
+    width: 100%;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+    .generaldivhomeheader {
+        max-width: 60%;
+        margin: 0 auto;
+
+        .textdiv {
+            max-width: 40%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h2 {
+
+                font-size: 3rem;
+            }
+
+            p {
+                line-height: 25px;
+            }
+        }
+    }
+
+
+}

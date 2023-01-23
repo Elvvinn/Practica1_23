@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textcard {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.generalcardelement {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+
+    .elementcard {
+        width: 400px;
+        height: 250px;
+        background-color: mistyrose;
+        border: none;
+        border-radius: 8px;
+        margin: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

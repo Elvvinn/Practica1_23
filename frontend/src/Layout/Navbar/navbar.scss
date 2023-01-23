@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a,
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.generaldivnavbar {
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+    text-decoration: none;
+    background-color: #fee2b3;
+    width: 100%;
+    min-height: 6vh;
+    align-items: center;
+    position: absolute;
+
+    a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    .rightside {
+        display: flex;
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+            font-size: 0.9rem;
+            color: black;
+        }
+    }
+}
